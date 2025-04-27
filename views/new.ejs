@@ -6,12 +6,13 @@
     <title>Create New Post</title>
 </head>
 <body>
-    <form method="post" action="/posts">
-        <input  placeholder="Enter Username" name="username">
+    <form method="POST" action="/posts">
+        <input  placeholder="Enter Username" type="text" name="username">
     <br/><br/>
         <textarea  placeholder="write your post" name="content" ></textarea>
+        <br/><br/>
+        <button type="submit">Submit Post</button>
     </form>
-    <br/><br/>
-    <button>Submit Post</button>
+   
 </body>
 </html>
